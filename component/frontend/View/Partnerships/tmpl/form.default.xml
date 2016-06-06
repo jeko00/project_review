@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_HSHRNDREVIEW_COMMON_NORECORDS">
+  <headerset>
+    <header name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_PARTNERSHIPS_ORDERING_LBL" sortable="true" tdwidth="1%"/>
+    <header name="hshrndreview_partnership_id" type="RowSelect" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PARTNERSHIPS_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="hshrndreview_fk_collaborator_id" type="RowSelect" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PARTNERSHIPS_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="owner_id" type="Searchable" label="COM_HSHRNDREVIEW_PARTNERSHIPS_NAME_LBL" sortable="true"/>
+    <header name="name" type="Searchable" label="COM_HSHRNDREVIEW_PARTNERSHIPS_NAME_LBL" sortable="true"/>
+    <header name="slug" type="Searchable" label="COM_HSHRNDREVIEW_PARTNERSHIPS_SLUG_LBL" sortable="true"/>
+    <header name="enabled" type="Published" label="COM_HSHRNDREVIEW_PARTNERSHIPS_ENABLED_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_PARTNERSHIPS_ORDERING_LBL" class="input-mini input-sm"/>
+    <field name="hshrndreview_partnership_id" type="SelectRow" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PARTNERSHIPS_ID_LBL"/>
+    <field name="hshrndreview_fk_collaborator_id" type="SelectRow" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PARTNERSHIPS_ID_LBL"/>
+    <field name="owner_id" type="Text" label="COM_HSHRNDREVIEW_PARTNERSHIPS_NAME_LBL"/>
+    <field name="name" type="Text" label="COM_HSHRNDREVIEW_PARTNERSHIPS_NAME_LBL"/>
+    <field name="slug" type="Text" label="COM_HSHRNDREVIEW_PARTNERSHIPS_SLUG_LBL"/>
+    <field name="enabled" type="Actions" label="COM_HSHRNDREVIEW_PARTNERSHIPS_ENABLED_LBL"/>
+  </fieldset>
+</form>

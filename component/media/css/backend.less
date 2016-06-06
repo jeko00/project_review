@@ -1,0 +1,27 @@
+/**
+ * @package todo
+ * @copyright Copyright (c)2012 Nicholas K. Dionysopoulos / AkeebaBackup.com
+ * @license GNU General Public License version 2 or later
+ * 
+ * Backend styling
+ */
+
+// Variables
+@colorOverdue: red;
+@colorClosing: #a90;
+@colorEnoughTime: green;
+@labelBackground: rgba(0, 0, 0, 0.1);
+
+// Extension toolbar icon (big badge)
+.icon-48-todo { background: transparent url(../../com_todo/images/todo-48.png) no-repeat !important; }
+
+// Due date styling
+span {
+	&.todo-due-overdue		{ color: @colorOverdue; }
+	&.todo-due-closing		{ color: @colorClosing; }
+	&.todo-due-enoughtime	{ color: @colorEnoughTime; }
+}
+
+div.todo-clear { clear: left; }
+
+.todo-title-field { display: block; font-size: x-large; font-weight: bold; border-bottom: thin solid gray; }

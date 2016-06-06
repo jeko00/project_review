@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_HSHRNDREVIEW_COMMON_NORECORDS">
+  <headerset>
+    <header name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_PROJECTS_ORDERING_LBL" sortable="true" tdwidth="1%"/>
+    <header name="hshrndreview_project_id" type="RowSelect" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PROJECT_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="name" type="Searchable" label="COM_HSHRNDREVIEW_PROJECTS_NAME_LBL" sortable="true"/>
+    <header name="slug" type="Searchable" label="COM_HSHRNDREVIEW_PROJECTS_SLUG_LBL" sortable="true"/>
+    <header name="project_type" type="Searchable" label="COM_HSHRNDREVIEW_PROJECTS_PROJECT_TYPE_LBL" sortable="true"/>
+    <header name="startDate" type="Date" label="COM_HSHRNDREVIEW_PROJECTS_STARTDATE_LBL" sortable="true"/>
+    <header name="enabled" type="Published" label="COM_HSHRNDREVIEW_PROJECTS_ENABLED_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_PROJECTS_ORDERING_LBL" class="input-mini input-sm"/>
+    <field name="hshrndreview_project_id" type="SelectRow" label="COM_HSHRNDREVIEW_PROJECTS_HSHRNDREVIEW_PROJECT_ID_LBL"/>
+    <field name="name" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_NAME_LBL"/>
+    <field name="slug" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_SLUG_LBL"/>
+    <field name="project_type" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_PROJECT_TYPE_LBL"/>
+    <field name="startDate" type="Calendar" label="COM_HSHRNDREVIEW_PROJECTS_STARTDATE_LBL"/>
+    <field name="enabled" type="Actions" label="COM_HSHRNDREVIEW_PROJECTS_ENABLED_LBL"/>
+  </fieldset>
+</form>

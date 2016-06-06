@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true">
+  <fieldset name="scaffolding" label="COM_HSHRNDREVIEW_PROJECTS_GROUP_BASIC">
+    <field name="name" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_NAME_LBL" description="COM_HSHRNDREVIEW_PROJECTS_NAME_DESC"/>
+    <field name="slug" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_SLUG_LBL" description="COM_HSHRNDREVIEW_PROJECTS_SLUG_DESC"/>
+    <field name="project_type" type="Text" label="COM_HSHRNDREVIEW_PROJECTS_PROJECT_TYPE_LBL" description="COM_HSHRNDREVIEW_PROJECTS_PROJECT_TYPE_DESC"/>
+    <field name="startDate" type="Calendar" label="COM_HSHRNDREVIEW_PROJECTS_STARTDATE_LBL" description="COM_HSHRNDREVIEW_PROJECTS_STARTDATE_DESC"/>
+    <field name="enabled" type="Published" label="COM_HSHRNDREVIEW_PROJECTS_ENABLED_LBL" description="COM_HSHRNDREVIEW_PROJECTS_ENABLED_DESC"/>
+  </fieldset>
+</form>

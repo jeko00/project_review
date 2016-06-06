@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form type="browse" show_header="1" show_filters="1" show_pagination="1" norows_placeholder="COM_HSHRNDREVIEW_COMMON_NORECORDS">
+  <headerset>
+    <header name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_STATUSES_ORDERING_LBL" sortable="true" tdwidth="1%"/>
+    <header name="hshrndreview_status_id" type="RowSelect" label="COM_HSHRNDREVIEW_STATUSES_HSHRNDREVIEW_STATUS_ID_LBL" sortable="true" tdwidth="20"/>
+    <header name="objective" type="Searchable" label="COM_HSHRNDREVIEW_STATUSES_OBJECTIVE_LBL" sortable="true"/>
+    <header name="responsible" type="Searchable" label="COM_HSHRNDREVIEW_STATUSES_RESPONSIBLE_LBL" sortable="true"/>
+    <header name="projectStatus" type="Searchable" label="COM_HSHRNDREVIEW_STATUSES_PROJECTSTATUS_LBL" sortable="true"/>
+    <header name="msURSReleaseDate" type="Date" label="COM_HSHRNDREVIEW_STATUSES_MSURSRELEASEDATE_LBL" sortable="true"/>
+    <header name="msFSReleaseDate" type="Date" label="COM_HSHRNDREVIEW_STATUSES_MSFSRELEASEDATE_LBL" sortable="true"/>
+    <header name="msExpModelReleaseDate" type="Date" label="COM_HSHRNDREVIEW_STATUSES_MSEXPMODELRELEASEDATE_LBL" sortable="true"/>
+    <header name="msPrototypeReleaseDate" type="Date" label="COM_HSHRNDREVIEW_STATUSES_MSPROTOTYPERELEASEDATE_LBL" sortable="true"/>
+    <header name="msVolumeProductionDate" type="Date" label="COM_HSHRNDREVIEW_STATUSES_MSVOLUMEPRODUCTIONDATE_LBL" sortable="true"/>
+    <header name="justificationForAChange" type="Searchable" label="COM_HSHRNDREVIEW_STATUSES_JUSTIFICATIONFORACHANGE_LBL" sortable="true"/>
+    <header name="enabled" type="Published" label="COM_HSHRNDREVIEW_STATUSES_ENABLED_LBL" sortable="true"/>
+  </headerset>
+  <fieldset name="items">
+    <field name="ordering" type="Ordering" label="COM_HSHRNDREVIEW_STATUSES_ORDERING_LBL" class="input-mini input-sm"/>
+    <field name="hshrndreview_status_id" type="SelectRow" label="COM_HSHRNDREVIEW_STATUSES_HSHRNDREVIEW_STATUS_ID_LBL"/>
+    <field name="objective" type="Text" label="COM_HSHRNDREVIEW_STATUSES_OBJECTIVE_LBL"/>
+    <field name="responsible" type="Text" label="COM_HSHRNDREVIEW_STATUSES_RESPONSIBLE_LBL"/>
+    <field name="projectStatus" type="Text" label="COM_HSHRNDREVIEW_STATUSES_PROJECTSTATUS_LBL"/>
+    <field name="msURSReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSURSRELEASEDATE_LBL"/>
+    <field name="msFSReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSFSRELEASEDATE_LBL"/>
+    <field name="msExpModelReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSEXPMODELRELEASEDATE_LBL"/>
+    <field name="msPrototypeReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSPROTOTYPERELEASEDATE_LBL"/>
+    <field name="msVolumeProductionDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSVOLUMEPRODUCTIONDATE_LBL"/>
+    <field name="justificationForAChange" type="Text" label="COM_HSHRNDREVIEW_STATUSES_JUSTIFICATIONFORACHANGE_LBL"/>
+    <field name="enabled" type="Actions" label="COM_HSHRNDREVIEW_STATUSES_ENABLED_LBL"/>
+  </fieldset>
+</form>

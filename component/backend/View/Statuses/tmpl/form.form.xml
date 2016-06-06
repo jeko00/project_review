@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form validate="true">
+  <fieldset name="scaffolding" label="COM_HSHRNDREVIEW_STATUSES_GROUP_BASIC">
+    <field name="objective" type="Text" label="COM_HSHRNDREVIEW_STATUSES_OBJECTIVE_LBL" description="COM_HSHRNDREVIEW_STATUSES_OBJECTIVE_DESC"/>
+    <field name="responsible" type="Text" label="COM_HSHRNDREVIEW_STATUSES_RESPONSIBLE_LBL" description="COM_HSHRNDREVIEW_STATUSES_RESPONSIBLE_DESC"/>
+    <field name="projectStatus" type="Text" label="COM_HSHRNDREVIEW_STATUSES_PROJECTSTATUS_LBL" description="COM_HSHRNDREVIEW_STATUSES_PROJECTSTATUS_DESC"/>
+    <field name="msURSReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSURSRELEASEDATE_LBL" description="COM_HSHRNDREVIEW_STATUSES_MSURSRELEASEDATE_DESC"/>
+    <field name="msFSReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSFSRELEASEDATE_LBL" description="COM_HSHRNDREVIEW_STATUSES_MSFSRELEASEDATE_DESC"/>
+    <field name="msExpModelReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSEXPMODELRELEASEDATE_LBL" description="COM_HSHRNDREVIEW_STATUSES_MSEXPMODELRELEASEDATE_DESC"/>
+    <field name="msPrototypeReleaseDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSPROTOTYPERELEASEDATE_LBL" description="COM_HSHRNDREVIEW_STATUSES_MSPROTOTYPERELEASEDATE_DESC"/>
+    <field name="msVolumeProductionDate" type="Calendar" label="COM_HSHRNDREVIEW_STATUSES_MSVOLUMEPRODUCTIONDATE_LBL" description="COM_HSHRNDREVIEW_STATUSES_MSVOLUMEPRODUCTIONDATE_DESC"/>
+    <field name="justificationForAChange" type="Text" label="COM_HSHRNDREVIEW_STATUSES_JUSTIFICATIONFORACHANGE_LBL" description="COM_HSHRNDREVIEW_STATUSES_JUSTIFICATIONFORACHANGE_DESC"/>
+    <field name="enabled" type="Published" label="COM_HSHRNDREVIEW_STATUSES_ENABLED_LBL" description="COM_HSHRNDREVIEW_STATUSES_ENABLED_DESC"/>
+  </fieldset>
+</form>

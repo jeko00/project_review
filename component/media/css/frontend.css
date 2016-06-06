@@ -1,0 +1,127 @@
+
+.hsh_text_input {
+	width: 500px;
+	vertical-align: top;
+}
+.hsh_newCollaborator_text_input {
+	width: 420px;
+	vertical-align: top;
+}
+
+.divider{
+    width:5px;
+    height:auto;
+    display:inline-block;
+}
+
+
+
+.hsh_td_tables_description {
+	color: #353535;
+	text-align: justify;
+	vertical-align: top;
+	line-height: 130%;
+	font-size: 10px;
+	width: 200px;
+	padding-top:3px;
+	padding-bottom:7px;
+	padding-left:7px;
+}
+
+
+
+.hsh_multiline_select_list {
+	width: 515px;
+	
+}
+
+
+.hsh_multiline_text_input {
+	height: 150px;
+	width: 500px;
+	
+}
+
+.hsh_multiline_project_partner_text_input {
+	height: 150px;
+	width: 500px;
+	resize: none;
+}
+
+
+
+
+.hsh_td_tables_input  { 
+  display: table-cell;
+  vertical-align: top; 
+}
+
+.hsh_rnd_projects_table{ 
+	width: 100%;
+}
+
+.hsh_rnd_projects_table td{ 
+	padding:7px;
+	vertical-align: top;
+	text-align: left;
+}
+
+.hsh_rnd_projects_table_td1{ 
+	padding:7px;
+	text-align: left;
+}
+
+
+.hsh_rnd_projects_table_td2{ 
+	padding:7px;
+	text-align: left;
+	border-top: 1px solid black;
+}
+
+.hsh_rnd_projects_table_td3{ 
+	padding:7px;
+	text-align: left;
+	border-bottom: 1px solid black;
+}
+
+.hsh_rnd_projects_table_td4{ 
+	padding:7px;
+	text-align: left;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+}
+
+.hsh_rnd_projects_table_th{ 
+	border-top: 1px solid black;
+}
+
+
+.hsh_rnd_projects_table_td5{ 
+	background: #ff0000;
+}
+
+.do_scroll{
+    max-height: 200px;
+    overflow-y: auto;
+	text-overflow: ellipsis;
+}
+
+/* Define the default color for all the table rows
+.hsh_rnd_projects_table_tr:nth-child(12n-5), .hsh_rnd_projects_table_tr:nth-child(12n-4), .hsh_rnd_projects_table_tr:nth-child(12n-3), .hsh_rnd_projects_table_tr:nth-child(12n-2), .hsh_rnd_projects_table_tr:nth-child(12n-1), .hsh_rnd_projects_table_tr:nth-child(12n-0){
+	background: #e5e5e5;
+}*/
+
+
+.hsh_rnd_projects_table th {
+    padding-top: 12px;
+	padding-left: 7px;
+    padding-bottom: 12px;
+    background-color: #e5e5e5;
+    color: #494949;
+	text-align: left;
+}
+
+
+.hsh_rnd_projects_partnership_table_tr:nth-child(2n){
+	background: #e5e5e5;
+}

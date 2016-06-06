@@ -1,0 +1,9 @@
+.icon-48-todo { background: transparent url(../images/todo-48.png) no-repeat !important; }
+
+span.todo-due-overdue { color: red; }
+span.todo-due-closing { color: #a90; }
+span.todo-due-enoughtime { color: green; }
+
+div.todo-clear { clear: left; }
+
+.todo-title-field { display: block; font-size: x-large; font-weight: bold; border-bottom: thin solid gray; }
